@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EvocaSerBasurero</string>
+    <string name="jugar">Play</string>
+    <string name="ayuda">Help</string>
+    <string name="opciones">Options</string>
+    <string name="creditos">Credits</string>
+    <string name="records" translatable="false">Records</string>
+    <string name="Full">You are full.</string>
+    <string name="Level">Select a level</string>
+    <string name="City">City</string>
+    <string name="Suburbs">Suburbs</string>
+    <string name="Blocked">Blocked</string>
+    <string name="Record">Record</string>
+    <string name="Achievements">Achievements</string>
+    <string name="Pause">Pause</string>
+    <string name="Lost">You lost</string>
+    <string name="Win">You win</string>
+    <string name="End">end</string>
+</resources>

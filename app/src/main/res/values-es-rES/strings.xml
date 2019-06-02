@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Evoca ser basurero</string>
+    <string name="jugar">Jugar</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="opciones">Opciones</string>
+    <string name="creditos">Créditos</string>
+    <string name="Full">No tienes hueco.</string>
+    <string name="Level">Selecciona una fase</string>
+    <string name="City">Ciudad</string>
+    <string name="Suburbs">Afueras</string>
+    <string name="Blocked">Bloqueado</string>
+    <string name="Record">Máximo basura:</string>
+    <string name="Achievements">Logros</string>
+    <string name="Pause">Pausa</string>
+    <string name="Lost">Pierdes</string>
+    <string name="Win">Ganas</string>
+    <string name="End">Fin</string>
+</resources>
