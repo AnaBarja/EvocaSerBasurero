@@ -1,37 +1,29 @@
-## Evoca Ser Basurero
+# [Evoca Ser Basurero 2.0](https://anabarja.github.io/EvocaSerBasurero/)
 
-You can use the [editor on GitHub](https://github.com/AnaBarja/EvocaSerBasurero/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+El camión que le toca a Alexis en su turno no funciona correctamente, el sistema automático no funciona, y debido a los cortes de presupuesto del gobierno no puede ser arreglado. Deberá bajar del camión y recoger la basura manualmente exponiéndose a los peligros de la noche.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Objetivo
+Recoger la mayor cantidad de basura de los cubos en un tiempo límite; para pasar el nivel se necesita un mínimo de basura recogida, cuanta más basura recogida más puntos. El personaje se moverá a través de la carretera con el camión y deberá bajar de él para acercarse al contenedor, recoger la basura, meterla en el camión y volver a subir. Hay un máximo de “piezas” de basura que puede llevar encima, es necesario ir al camión cada x piezas. Pero cuidado, puede haber enemigos que le ataquen cuando esté fuera del camión y si no consigue soltarse perderá.
 
-### Markdown
+### Controles
+- Mover el camión.
+- Bajar del camión.
+- Mover al personaje.
+- Recoger la basura.
+- Tirar la basura.
+- Subir al camión.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Colisiones
+Cuando un enemigo colisiona contra el personaje lo “atrapa”. Para poder recoger la basura es necesario estar tocando el cubo, igual que para tirarla es necesario estar tocando la parte de atrás del camión.
 
-```markdown
-Syntax highlighted code block
+### Escenarios
+Hay 2 escenarios:
+- Ciudad: recogerá basura en la ciudad, con edificios y tiendas de fondo.
+- Afueras: recogerá basura en las afueras de la ciudad, donde hay parcelas con casas
+de fondo.
 
-# Header 1
-## Header 2
-### Header 3
+### Enemigos
+Los enemigos se desplazan de un lado de la pantalla al otro. Para poder esquivarlos el personaje puede subir al camión, en caso contrario, si lo pillan, el móvil vibrará y será necesario agitar el móvil para soltarse. Si no se deshace del enemigo en x tiempo, perderá en el momento.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AnaBarja/EvocaSerBasurero/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Logros
+Cuando se recoge la basura se desbloquean logros. 
